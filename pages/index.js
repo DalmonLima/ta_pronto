@@ -5,7 +5,7 @@ function Home() {
 const getData = () => {
         
     const req = new XMLHttpRequest();
-    req.open('GET', ' https://old-cat-9.loca.lt');
+    req.open('GET', ' app.js');
 
     req.responseType = 'json';
 

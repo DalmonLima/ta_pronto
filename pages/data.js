@@ -1,4 +1,4 @@
-export const OrderskData = [
+export const OrdersData = [
     {
       "id": 1,
       "name": "João",

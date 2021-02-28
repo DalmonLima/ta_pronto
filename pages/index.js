@@ -1,21 +1,13 @@
-function Home() {
-    return <div>Home</div>
+import React from "react";
+import "./App.css";
+import { Stocks } from "./Stocks";
+
+function App() {
+  return (
+    <div className="App">
+      <Stocks />
+    </div>
+  );
 }
 
-const getData = () => {
-        
-    const req = new XMLHttpRequest();
-    req.open('GET', ' app.js');
-
-    req.responseType = 'json';
-
-    req.onload  = () => {
-        const data = req.response;
-        console.log(data);
-    }
-    req.send();
-
-}
-getData();
-
-export default Home
+export default App;

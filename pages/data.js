@@ -1,4 +1,4 @@
-[
+export const OrderskData = [
     {
       "id": 1,
       "name": "João",
@@ -26,5 +26,5 @@
       "contact": "(85)999999994",
       "order": 104,
       "status": "pending"
-    }
-]
+    },
+];
